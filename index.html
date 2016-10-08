@@ -1,0 +1,75 @@
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="resources/styles/styles.css" />
+    <title>Matemática Discreta</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="headerBar" class="col-sm-12">
+          <h1>Atividade de Matemática Discreta</h1>
+          <h5>Aluno: Celso Palmeira dos Santos Neto</h5>
+        </div>
+        <div class="col-sm-12 alert alert-danger" style="display:none">
+          <strong>Ops!</strong><span></span>
+        </div>
+        <div class="col-sm-6">
+          <textarea id="graphText" class="d-block"></textarea>
+          <button class="btn btn-primary btn-sm m-t-1" id="go" name="button">Processar Respostas</button>
+        </div>
+        <div class="col-sm-6">
+          <h5>Grafos Pré-Definidos</h5>
+          <button class="btn btn-secondary btn-sm">4 Vértices</button>
+          <button class="btn btn-secondary btn-sm">5 Vértices</button>
+          <button class="btn btn-secondary btn-sm">6 Vértices</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+        </div>
+      </div>
+
+      <div class="row todosResultados">
+        <div class="col-sm-12">
+          <h3>Respostas:</h3>
+        </div>
+
+        <div class="col-sm-12">
+          <h4>1. Vetor com Graus.</h4>
+        </div>
+        <div id="resultado01" class="col-sm-12 resultado">
+        </div>
+
+        <div class="col-sm-12">
+          <h4>2. Grafo Regular?</h4>
+        </div>
+        <div id="resultado02" class="col-sm-12 resultado">
+        </div>
+
+        <div class="col-sm-12">
+          <h4>3. Grafo Completo?</h4>
+        </div>
+        <div id="resultado03" class="col-sm-12 resultado">
+        </div>
+
+        <div class="col-sm-12">
+          <h4>4. Grafo Simples?</h4>
+        </div>
+        <div id="resultado04" class="col-sm-12 resultado">
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="resources/scripts/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+  </body>
+</html>

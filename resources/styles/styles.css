@@ -1,0 +1,20 @@
+#headerBar {
+  background-color: #c8aac8;
+  margin-bottom: 1em;
+}
+.resultado {
+  margin: 0em 0em 1em 0em;
+}
+.todosResultados {
+  margin-top: 1em;
+}
+#resultado01 span {
+  color: #808080;
+  border-color: #808080;
+  border-style: solid;
+  border-width: 1px 1px 1px 0px;
+  padding: 5px;
+}
+#resultado01 span:first-child {
+  border-left: 1px solid #808080;
+}
